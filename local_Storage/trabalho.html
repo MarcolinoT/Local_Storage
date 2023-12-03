@@ -1,0 +1,42 @@
+<html>
+<head>
+    <title>Vetores</title>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body align="center">
+    <div class="container">
+        <h1 class="titulo">Tema: Alunos</h1>
+
+        
+        <label>
+            Ra:
+            <input type="text" id="ra"/>
+        </label>
+        <label>
+            Digite um nome:
+            <input type="text" id="nome"/>
+        </label>
+        <label>  
+            Instituição de ensino:  
+            <input type="text" id="instituicao"/>
+        </label> 
+        <label>  
+            Curso:  
+            <input type="text" id="curso"/>
+        </label>  
+        <label>  
+            Período:  
+            <input type="text" id="periodo"/>
+        </label>         
+
+        <input type="button" onclick="inserir()" value="inserir"/>
+        <input type="button" onclick="listar()" value="listar"/>
+        <br> 
+    </div>
+    <br>
+        <table border="1" width="100%" id="tabela"></table>
+
+    <script src="script.js" ></script>
+</body>
+</html>
